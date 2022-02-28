@@ -14,6 +14,11 @@
 		043BF17527CCD7DD00F3377E /* FlickerPhotoSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF17427CCD7DD00F3377E /* FlickerPhotoSearchTests.swift */; };
 		043BF17F27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF17E27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift */; };
 		043BF18127CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */; };
+		043BF19327CCDA3500F3377E /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF18E27CCDA3500F3377E /* EndPoints.swift */; };
+		043BF19427CCDA3500F3377E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF18F27CCDA3500F3377E /* NetworkManager.swift */; };
+		043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19027CCDA3500F3377E /* URLRequest+Extension.swift */; };
+		043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19127CCDA3500F3377E /* ServiceError.swift */; };
+		043BF19727CCDA3500F3377E /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19227CCDA3500F3377E /* ApiRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		043BF17A27CCD7DE00F3377E /* FlickerPhotoSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerPhotoSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BF17E27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchUITests.swift; sourceTree = "<group>"; };
 		043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		043BF18E27CCDA3500F3377E /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		043BF18F27CCDA3500F3377E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		043BF19027CCDA3500F3377E /* URLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		043BF19127CCDA3500F3377E /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		043BF19227CCDA3500F3377E /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				043BF18D27CCDA3500F3377E /* Networking */,
 				043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */,
 				043BF16527CCD7DB00F3377E /* ContentView.swift */,
 				043BF16727CCD7DD00F3377E /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */,
 			);
 			path = FlickerPhotoSearchUITests;
+			sourceTree = "<group>";
+		};
+		043BF18D27CCDA3500F3377E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				043BF18E27CCDA3500F3377E /* EndPoints.swift */,
+				043BF18F27CCDA3500F3377E /* NetworkManager.swift */,
+				043BF19027CCDA3500F3377E /* URLRequest+Extension.swift */,
+				043BF19127CCDA3500F3377E /* ServiceError.swift */,
+				043BF19227CCDA3500F3377E /* ApiRequest.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */,
+				043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */,
+				043BF19427CCDA3500F3377E /* NetworkManager.swift in Sources */,
 				043BF16627CCD7DB00F3377E /* ContentView.swift in Sources */,
+				043BF19327CCDA3500F3377E /* EndPoints.swift in Sources */,
+				043BF19727CCDA3500F3377E /* ApiRequest.swift in Sources */,
 				043BF16427CCD7DB00F3377E /* FlickerPhotoSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
