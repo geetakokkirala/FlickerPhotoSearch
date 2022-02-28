@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043BF16427CCD7DB00F3377E /* FlickerPhotoSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */; };
+		043BF16627CCD7DB00F3377E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF16527CCD7DB00F3377E /* ContentView.swift */; };
+		043BF16827CCD7DD00F3377E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BF16727CCD7DD00F3377E /* Assets.xcassets */; };
+		043BF16B27CCD7DD00F3377E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BF16A27CCD7DD00F3377E /* Preview Assets.xcassets */; };
+		043BF17527CCD7DD00F3377E /* FlickerPhotoSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF17427CCD7DD00F3377E /* FlickerPhotoSearchTests.swift */; };
+		043BF17F27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF17E27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift */; };
+		043BF18127CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043BF17127CCD7DD00F3377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043BF15827CCD7DB00F3377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043BF15F27CCD7DB00F3377E;
+			remoteInfo = FlickerPhotoSearch;
+		};
+		043BF17B27CCD7DE00F3377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043BF15827CCD7DB00F3377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043BF15F27CCD7DB00F3377E;
+			remoteInfo = FlickerPhotoSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043BF16027CCD7DB00F3377E /* FlickerPhotoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerPhotoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchApp.swift; sourceTree = "<group>"; };
+		043BF16527CCD7DB00F3377E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		043BF16727CCD7DD00F3377E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043BF16A27CCD7DD00F3377E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		043BF17027CCD7DD00F3377E /* FlickerPhotoSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerPhotoSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043BF17427CCD7DD00F3377E /* FlickerPhotoSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchTests.swift; sourceTree = "<group>"; };
+		043BF17A27CCD7DE00F3377E /* FlickerPhotoSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerPhotoSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043BF17E27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchUITests.swift; sourceTree = "<group>"; };
+		043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043BF15D27CCD7DB00F3377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF16D27CCD7DD00F3377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF17727CCD7DE00F3377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043BF15727CCD7DB00F3377E = {
+			isa = PBXGroup;
+			children = (
+				043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */,
+				043BF17327CCD7DD00F3377E /* FlickerPhotoSearchTests */,
+				043BF17D27CCD7DE00F3377E /* FlickerPhotoSearchUITests */,
+				043BF16127CCD7DB00F3377E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043BF16127CCD7DB00F3377E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043BF16027CCD7DB00F3377E /* FlickerPhotoSearch.app */,
+				043BF17027CCD7DD00F3377E /* FlickerPhotoSearchTests.xctest */,
+				043BF17A27CCD7DE00F3377E /* FlickerPhotoSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */ = {
+			isa = PBXGroup;
+			children = (
+				043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */,
+				043BF16527CCD7DB00F3377E /* ContentView.swift */,
+				043BF16727CCD7DD00F3377E /* Assets.xcassets */,
+				043BF16927CCD7DD00F3377E /* Preview Content */,
+			);
+			path = FlickerPhotoSearch;
+			sourceTree = "<group>";
+		};
+		043BF16927CCD7DD00F3377E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				043BF16A27CCD7DD00F3377E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		043BF17327CCD7DD00F3377E /* FlickerPhotoSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				043BF17427CCD7DD00F3377E /* FlickerPhotoSearchTests.swift */,
+			);
+			path = FlickerPhotoSearchTests;
+			sourceTree = "<group>";
+		};
+		043BF17D27CCD7DE00F3377E /* FlickerPhotoSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043BF17E27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift */,
+				043BF18027CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift */,
+			);
+			path = FlickerPhotoSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043BF15F27CCD7DB00F3377E /* FlickerPhotoSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043BF18427CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearch" */;
+			buildPhases = (
+				043BF15C27CCD7DB00F3377E /* Sources */,
+				043BF15D27CCD7DB00F3377E /* Frameworks */,
+				043BF15E27CCD7DB00F3377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickerPhotoSearch;
+			productName = FlickerPhotoSearch;
+			productReference = 043BF16027CCD7DB00F3377E /* FlickerPhotoSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043BF16F27CCD7DD00F3377E /* FlickerPhotoSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043BF18727CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearchTests" */;
+			buildPhases = (
+				043BF16C27CCD7DD00F3377E /* Sources */,
+				043BF16D27CCD7DD00F3377E /* Frameworks */,
+				043BF16E27CCD7DD00F3377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043BF17227CCD7DD00F3377E /* PBXTargetDependency */,
+			);
+			name = FlickerPhotoSearchTests;
+			productName = FlickerPhotoSearchTests;
+			productReference = 043BF17027CCD7DD00F3377E /* FlickerPhotoSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043BF17927CCD7DE00F3377E /* FlickerPhotoSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043BF18A27CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearchUITests" */;
+			buildPhases = (
+				043BF17627CCD7DE00F3377E /* Sources */,
+				043BF17727CCD7DE00F3377E /* Frameworks */,
+				043BF17827CCD7DE00F3377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043BF17C27CCD7DE00F3377E /* PBXTargetDependency */,
+			);
+			name = FlickerPhotoSearchUITests;
+			productName = FlickerPhotoSearchUITests;
+			productReference = 043BF17A27CCD7DE00F3377E /* FlickerPhotoSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043BF15827CCD7DB00F3377E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					043BF15F27CCD7DB00F3377E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					043BF16F27CCD7DD00F3377E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 043BF15F27CCD7DB00F3377E;
+					};
+					043BF17927CCD7DE00F3377E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 043BF15F27CCD7DB00F3377E;
+					};
+				};
+			};
+			buildConfigurationList = 043BF15B27CCD7DB00F3377E /* Build configuration list for PBXProject "FlickerPhotoSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043BF15727CCD7DB00F3377E;
+			productRefGroup = 043BF16127CCD7DB00F3377E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043BF15F27CCD7DB00F3377E /* FlickerPhotoSearch */,
+				043BF16F27CCD7DD00F3377E /* FlickerPhotoSearchTests */,
+				043BF17927CCD7DE00F3377E /* FlickerPhotoSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043BF15E27CCD7DB00F3377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BF16B27CCD7DD00F3377E /* Preview Assets.xcassets in Resources */,
+				043BF16827CCD7DD00F3377E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF16E27CCD7DD00F3377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF17827CCD7DE00F3377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043BF15C27CCD7DB00F3377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BF16627CCD7DB00F3377E /* ContentView.swift in Sources */,
+				043BF16427CCD7DB00F3377E /* FlickerPhotoSearchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF16C27CCD7DD00F3377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BF17527CCD7DD00F3377E /* FlickerPhotoSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043BF17627CCD7DE00F3377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BF18127CCD7DE00F3377E /* FlickerPhotoSearchUITestsLaunchTests.swift in Sources */,
+				043BF17F27CCD7DE00F3377E /* FlickerPhotoSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043BF17227CCD7DD00F3377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043BF15F27CCD7DB00F3377E /* FlickerPhotoSearch */;
+			targetProxy = 043BF17127CCD7DD00F3377E /* PBXContainerItemProxy */;
+		};
+		043BF17C27CCD7DE00F3377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043BF15F27CCD7DB00F3377E /* FlickerPhotoSearch */;
+			targetProxy = 043BF17B27CCD7DE00F3377E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043BF18227CCD7DE00F3377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043BF18327CCD7DE00F3377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043BF18527CCD7DE00F3377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlickerPhotoSearch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043BF18627CCD7DE00F3377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlickerPhotoSearch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043BF18827CCD7DE00F3377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickerPhotoSearch.app/FlickerPhotoSearch";
+			};
+			name = Debug;
+		};
+		043BF18927CCD7DE00F3377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickerPhotoSearch.app/FlickerPhotoSearch";
+			};
+			name = Release;
+		};
+		043BF18B27CCD7DE00F3377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlickerPhotoSearch;
+			};
+			name = Debug;
+		};
+		043BF18C27CCD7DE00F3377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.geetha.FlickerPhotoSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlickerPhotoSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043BF15B27CCD7DB00F3377E /* Build configuration list for PBXProject "FlickerPhotoSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BF18227CCD7DE00F3377E /* Debug */,
+				043BF18327CCD7DE00F3377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043BF18427CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BF18527CCD7DE00F3377E /* Debug */,
+				043BF18627CCD7DE00F3377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043BF18727CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BF18827CCD7DE00F3377E /* Debug */,
+				043BF18927CCD7DE00F3377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043BF18A27CCD7DE00F3377E /* Build configuration list for PBXNativeTarget "FlickerPhotoSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BF18B27CCD7DE00F3377E /* Debug */,
+				043BF18C27CCD7DE00F3377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043BF15827CCD7DB00F3377E /* Project object */;
+}
