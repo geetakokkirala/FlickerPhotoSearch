@@ -19,6 +19,9 @@
 		043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19027CCDA3500F3377E /* URLRequest+Extension.swift */; };
 		043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19127CCDA3500F3377E /* ServiceError.swift */; };
 		043BF19727CCDA3500F3377E /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19227CCDA3500F3377E /* ApiRequest.swift */; };
+		043BF19C27CCDB3F00F3377E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19927CCDB3F00F3377E /* ImageCache.swift */; };
+		043BF19D27CCDB3F00F3377E /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19A27CCDB3F00F3377E /* UrlImageView.swift */; };
+		043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		043BF19027CCDA3500F3377E /* URLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		043BF19127CCDA3500F3377E /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		043BF19227CCDA3500F3377E /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		043BF19927CCDB3F00F3377E /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		043BF19A27CCDB3F00F3377E /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				043BF19827CCDB3F00F3377E /* ImageDownloaderCacher */,
 				043BF18D27CCDA3500F3377E /* Networking */,
 				043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */,
 				043BF16527CCD7DB00F3377E /* ContentView.swift */,
@@ -148,6 +155,16 @@
 				043BF19227CCDA3500F3377E /* ApiRequest.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		043BF19827CCDB3F00F3377E /* ImageDownloaderCacher */ = {
+			isa = PBXGroup;
+			children = (
+				043BF19927CCDB3F00F3377E /* ImageCache.swift */,
+				043BF19A27CCDB3F00F3377E /* UrlImageView.swift */,
+				043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */,
+			);
+			path = ImageDownloaderCacher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +299,9 @@
 			files = (
 				043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */,
 				043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */,
+				043BF19D27CCDB3F00F3377E /* UrlImageView.swift in Sources */,
+				043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */,
+				043BF19C27CCDB3F00F3377E /* ImageCache.swift in Sources */,
 				043BF19427CCDA3500F3377E /* NetworkManager.swift in Sources */,
 				043BF16627CCD7DB00F3377E /* ContentView.swift in Sources */,
 				043BF19327CCDA3500F3377E /* EndPoints.swift in Sources */,
