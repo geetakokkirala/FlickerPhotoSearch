@@ -22,6 +22,8 @@
 		043BF19C27CCDB3F00F3377E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19927CCDB3F00F3377E /* ImageCache.swift */; };
 		043BF19D27CCDB3F00F3377E /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19A27CCDB3F00F3377E /* UrlImageView.swift */; };
 		043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */; };
+		043BF1A327CCDC2400F3377E /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A027CCDC2400F3377E /* SearchRepository.swift */; };
+		043BF1A427CCDC2400F3377E /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A227CCDC2400F3377E /* Rechability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		043BF19927CCDB3F00F3377E /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		043BF19A27CCDB3F00F3377E /* UrlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
 		043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
+		043BF1A027CCDC2400F3377E /* SearchRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		043BF1A227CCDC2400F3377E /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				043BF19F27CCDC2400F3377E /* Repository */,
+				043BF1A127CCDC2400F3377E /* Utility */,
 				043BF19827CCDB3F00F3377E /* ImageDownloaderCacher */,
 				043BF18D27CCDA3500F3377E /* Networking */,
 				043BF16327CCD7DB00F3377E /* FlickerPhotoSearchApp.swift */,
@@ -165,6 +171,22 @@
 				043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */,
 			);
 			path = ImageDownloaderCacher;
+			sourceTree = "<group>";
+		};
+		043BF19F27CCDC2400F3377E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				043BF1A027CCDC2400F3377E /* SearchRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		043BF1A127CCDC2400F3377E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				043BF1A227CCDC2400F3377E /* Rechability.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043BF1A427CCDC2400F3377E /* Rechability.swift in Sources */,
 				043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */,
 				043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */,
+				043BF1A327CCDC2400F3377E /* SearchRepository.swift in Sources */,
 				043BF19D27CCDB3F00F3377E /* UrlImageView.swift in Sources */,
 				043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */,
 				043BF19C27CCDB3F00F3377E /* ImageCache.swift in Sources */,
