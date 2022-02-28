@@ -24,6 +24,11 @@
 		043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */; };
 		043BF1A327CCDC2400F3377E /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A027CCDC2400F3377E /* SearchRepository.swift */; };
 		043BF1A427CCDC2400F3377E /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A227CCDC2400F3377E /* Rechability.swift */; };
+		043BF1AC27CCDCA200F3377E /* PhotoSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A727CCDCA200F3377E /* PhotoSearchViewModel.swift */; };
+		043BF1AD27CCDCA200F3377E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A827CCDCA200F3377E /* CardView.swift */; };
+		043BF1AE27CCDCA200F3377E /* PhotoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1A927CCDCA200F3377E /* PhotoDetail.swift */; };
+		043BF1AF27CCDCA200F3377E /* SearchResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1AA27CCDCA200F3377E /* SearchResponce.swift */; };
+		043BF1B027CCDCA200F3377E /* PhotoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1AB27CCDCA200F3377E /* PhotoSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 		043BF19B27CCDB3F00F3377E /* UrlImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
 		043BF1A027CCDC2400F3377E /* SearchRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		043BF1A227CCDC2400F3377E /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		043BF1A727CCDCA200F3377E /* PhotoSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModel.swift; sourceTree = "<group>"; };
+		043BF1A827CCDCA200F3377E /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		043BF1A927CCDCA200F3377E /* PhotoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetail.swift; sourceTree = "<group>"; };
+		043BF1AA27CCDCA200F3377E /* SearchResponce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponce.swift; sourceTree = "<group>"; };
+		043BF1AB27CCDCA200F3377E /* PhotoSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,7 @@
 		043BF16227CCD7DB00F3377E /* FlickerPhotoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				043BF1A527CCDCA200F3377E /* Modules */,
 				043BF19F27CCDC2400F3377E /* Repository */,
 				043BF1A127CCDC2400F3377E /* Utility */,
 				043BF19827CCDB3F00F3377E /* ImageDownloaderCacher */,
@@ -187,6 +198,26 @@
 				043BF1A227CCDC2400F3377E /* Rechability.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		043BF1A527CCDCA200F3377E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				043BF1A627CCDCA200F3377E /* Search */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		043BF1A627CCDCA200F3377E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				043BF1A727CCDCA200F3377E /* PhotoSearchViewModel.swift */,
+				043BF1A827CCDCA200F3377E /* CardView.swift */,
+				043BF1A927CCDCA200F3377E /* PhotoDetail.swift */,
+				043BF1AA27CCDCA200F3377E /* SearchResponce.swift */,
+				043BF1AB27CCDCA200F3377E /* PhotoSearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,11 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043BF1AD27CCDCA200F3377E /* CardView.swift in Sources */,
 				043BF1A427CCDC2400F3377E /* Rechability.swift in Sources */,
 				043BF19627CCDA3500F3377E /* ServiceError.swift in Sources */,
 				043BF19527CCDA3500F3377E /* URLRequest+Extension.swift in Sources */,
+				043BF1AF27CCDCA200F3377E /* SearchResponce.swift in Sources */,
 				043BF1A327CCDC2400F3377E /* SearchRepository.swift in Sources */,
+				043BF1B027CCDCA200F3377E /* PhotoSearchView.swift in Sources */,
 				043BF19D27CCDB3F00F3377E /* UrlImageView.swift in Sources */,
+				043BF1AE27CCDCA200F3377E /* PhotoDetail.swift in Sources */,
 				043BF19E27CCDB3F00F3377E /* UrlImageModel.swift in Sources */,
 				043BF19C27CCDB3F00F3377E /* ImageCache.swift in Sources */,
 				043BF19427CCDA3500F3377E /* NetworkManager.swift in Sources */,
@@ -331,6 +366,7 @@
 				043BF19327CCDA3500F3377E /* EndPoints.swift in Sources */,
 				043BF19727CCDA3500F3377E /* ApiRequest.swift in Sources */,
 				043BF16427CCD7DB00F3377E /* FlickerPhotoSearchApp.swift in Sources */,
+				043BF1AC27CCDCA200F3377E /* PhotoSearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

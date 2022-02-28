@@ -11,7 +11,7 @@ import SwiftUI
 struct FlickerPhotoSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            PhotoSearchView(searchViewModel:PhotoSearchViewModel(searchRepository: SearchRepository()))
+                .padding()        }
     }
 }
