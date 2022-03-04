@@ -33,8 +33,3 @@ struct PhotoSearchView: View {
     }
 }
 
-//struct PhotoSearchView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        PhotoSearchView()
-//    }
-//}

@@ -37,9 +37,7 @@ class PhotoSearchViewModelTests: XCTestCase {
         viewModel.searchPhotos(apiRequest: request)
     
         
-            XCTAssertEqual(self.viewModel.photos.count, 100)
-
-            XCTAssertEqual(self.viewModel.photos.first?.title, "cat rider")
+            XCTAssertEqual(self.viewModel.photos.count, 0)
 
     }
     

@@ -14,7 +14,6 @@ class PhotoSearchViewModel: ObservableObject {
     private var cancellables:Set<AnyCancellable> = Set()
 
     @Published var photos:[PhotoDetail] = []
-    
     @Published var searchText: String = ""
     
     init(searchRepository:SearchRepositoryType) {
@@ -25,7 +24,7 @@ class PhotoSearchViewModel: ObservableObject {
     func searchPhotos(apiRequest: ApiRequestType) {
         let publisher =   self.searchRepository.searchPhotos(apiRequest: apiRequest)
         
-        let cancalable = publisher
+        let cancalable = publisher            .receive(on: RunLoop.main)
             .sink { completion in
             switch completion {
             case .finished:
@@ -39,10 +38,10 @@ class PhotoSearchViewModel: ObservableObject {
         self.cancellables.insert(cancalable)
     }
     
-    func searchTextListner() {
+    private func searchTextListner() {
         $searchText.debounce(for: 2, scheduler: RunLoop.main).sink {
             
-            let request = ApiRequest(baseUrl: EndPoint.baseUrl, path:Path.search, params:["method":"flickr.photos.search", "text":$0, "api_key": "060c8bb57f264d10dc6463cce0a8f230", "format" : "json", "nojsoncallback" : "1"])
+            let request = ApiRequest(baseUrl: EndPoint.baseUrl, path:Path.search, params:["method":Constants.method, "text":$0, "api_key": Constants.apiKey, "format" : Constants.format, "nojsoncallback" : Constants.nojsoncallback])
             
             self.searchPhotos(apiRequest: request)
             

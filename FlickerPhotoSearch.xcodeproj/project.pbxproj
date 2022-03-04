@@ -31,6 +31,7 @@
 		043BF1B427CCE04300F3377E /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1B127CCE04200F3377E /* MockNetworkManager.swift */; };
 		043BF1B527CCE04300F3377E /* PhotoSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF1B227CCE04200F3377E /* PhotoSearchViewModelTests.swift */; };
 		043BF1B627CCE04300F3377E /* Search_Success_Responce.json in Resources */ = {isa = PBXBuildFile; fileRef = 043BF1B327CCE04200F3377E /* Search_Success_Responce.json */; };
+		04F38B6327D220B1004A2569 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F38B6227D220B1004A2569 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		043BF1B127CCE04200F3377E /* MockNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		043BF1B227CCE04200F3377E /* PhotoSearchViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModelTests.swift; sourceTree = "<group>"; };
 		043BF1B327CCE04200F3377E /* Search_Success_Responce.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Search_Success_Responce.json; sourceTree = "<group>"; };
+		04F38B6227D220B1004A2569 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				043BF1A227CCDC2400F3377E /* Rechability.swift */,
+				04F38B6227D220B1004A2569 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				043BF19727CCDA3500F3377E /* ApiRequest.swift in Sources */,
 				043BF16427CCD7DB00F3377E /* FlickerPhotoSearchApp.swift in Sources */,
 				043BF1AC27CCDCA200F3377E /* PhotoSearchViewModel.swift in Sources */,
+				04F38B6327D220B1004A2569 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

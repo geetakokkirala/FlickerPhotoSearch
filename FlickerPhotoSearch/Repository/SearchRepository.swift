@@ -10,7 +10,6 @@ import Combine
 
 protocol SearchRepositoryType {
     func searchPhotos(apiRequest:ApiRequestType)->Future<[PhotoDetail], ServiceError>
-
 }
 
 class SearchRepository: SearchRepositoryType {
@@ -25,7 +24,6 @@ class SearchRepository: SearchRepositoryType {
     
     func searchPhotos(apiRequest: ApiRequestType) -> Future<[PhotoDetail], ServiceError> {
         return Future { [unowned self] promise in
-
                         
             let apiCallPublisher =   self.networkManager.doApiCall(apiRequest: apiRequest)
             
